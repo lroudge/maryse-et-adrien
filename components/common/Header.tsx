@@ -4,7 +4,7 @@ import Link from "next/link";
 const Header: React.FC = () => {
 	const router = useRouter();
 	return (
-		<header className="flex justify-evenly items-center w-full h-20 fixed z-10">
+		<header className="flex justify-evenly items-center w-full h-20 fixed z-10 font-title bg-emerald-500 text-lg">
 			<Link href="#about">A Propos</Link>
 			<Link href="#program">L'évènement</Link>
 			<Link href="#transportation">Venir</Link>
