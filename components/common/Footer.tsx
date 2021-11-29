@@ -1,5 +1,5 @@
 const Footer: React.FC = () => (
-	<footer className="flex items-center justify-center w-full h-20 border-t border-emerald-600 fixed z-10 bottom-0 bg-beige-200">
+	<footer className="flex items-center justify-center w-full h-20 fixed z-10 bg-emerald-200 bottom-0">
 		Pour toute question, vous pouvez en un clic nous contacter ici :
 		&nbsp;
 	    <a

@@ -29,3 +29,37 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.nav_option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: calc(100%/8);
+  cursor: pointer;
+  padding: 0;
+}
+
+.nav_option a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.nav_option::after {
+  content: "";
+  display: block;
+  width: 0;
+  border-bottom: 3px solid #3E2913;
+  transition: width 0.5s;
+}
+
+.nav_option:hover::after, .nav_option:focus-within::after {
+  width: 100%;
+}
