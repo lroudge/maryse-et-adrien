@@ -38,7 +38,7 @@ a {
   height: 100%;
   width: calc(100%/8);
   cursor: pointer;
-  padding: 0;
+  padding: 0 5px;
 }
 
 .nav_option a {
@@ -56,10 +56,17 @@ a {
   content: "";
   display: block;
   width: 0;
-  border-bottom: 3px solid #7D5226;
+  border-bottom: 1px solid #183F24;
   transition: width 0.5s;
 }
 
 .nav_option:hover::after, .nav_option:focus-within::after {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .nav_option {
+    width: auto;
+    padding: 1px 5px;
+  }
 }
