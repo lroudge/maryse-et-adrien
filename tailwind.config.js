@@ -26,7 +26,7 @@ module.exports = {
         }
       },
       dropShadow: {
-        'md': '1px 1px 0 #245E36'
+        'md': '1px 1px .5px #245E36'
       },
       fontFamily: {
         'title': ['PlayfairDisplay'],
