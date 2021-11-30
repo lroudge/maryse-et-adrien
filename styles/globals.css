@@ -2,12 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: local('PlayfairDisplay'), url(../fonts/PlayfairDisplay.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url(../fonts/Lato-Regular.ttf) format('truetype');
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -17,4 +28,45 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.nav_option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: calc(100%/8);
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.nav_option a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+.nav_option::after {
+  content: "";
+  display: block;
+  width: 0;
+  border-bottom: 1px solid #183F24;
+  transition: width 0.5s;
+}
+
+.nav_option:hover::after, .nav_option:focus-within::after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .nav_option {
+    width: auto;
+    padding: 1px 5px;
+  }
 }
