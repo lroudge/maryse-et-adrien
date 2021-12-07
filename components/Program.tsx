@@ -2,31 +2,8 @@ import Main from './common/Main';
 import Image from 'next/image';
 import {BsBank2} from 'react-icons/bs';
 import {GiLinkedRings, GiGlassCelebration, GiPartyPopper} from 'react-icons/gi';
-import { FaGoogle, FaApple } from "react-icons/fa";
-import { SiGooglecalendar } from "react-icons/si";
-import { stringify } from "querystring";
-
-export type GCalendarEventQuery = {
-	action: string;
-	text: string;
-	details: string | null;
-	location: string | null;
-	dates: string;
-};
-
-const makeGoogleCalendarUrl = (event: GCalendarEventQuery) =>
-	`https://calendar.google.com/calendar/render?${stringify(event)}`;
 
 const Program: React.FC = () => {
-  const googleEvent: GCalendarEventQuery = {
-  		action: "TEMPLATE",
-  		text: "Mariage de Maryse et Adrien",
-  		details: "Cérémonie Civile, Religieuse, puis Vin d'honneur, Dîner et Soirée.",
-  		location:
-  			"Noyal-sur-Vilaine, 35530",
-  		dates: "20220507T140000/20220508T050000"
-  	};
-
   return (
     <Main id="program">
       <h1 className="text-3xl md:text-6xl font-bold font-title filter drop-shadow-md">Le Programme</h1>
@@ -83,17 +60,6 @@ const Program: React.FC = () => {
                 </div>
             </div>
           </div>
-          <span className="flex flex-row items-center justify-center mt-5">
-          <a rel="noopener noreferrer"
-               target="_blank"
-               aria-describedby="new-window"
-               href={makeGoogleCalendarUrl(
-                   googleEvent
-               )} className="flex flex-row items-center justify-center md:justify-evenly shadow-lg rounded-md bg-emerald-500 hover:bg-emerald-400 transition-colors text-emerald-800 h-12 w-96 p-2">
-          <SiGooglecalendar title="Add to Calendar" className="text-xl md:text-3xl"/>{" "}
-          Ajoutez notre évènement à votre calendrier
-          </a>
-          </span>
     </Main>
   );
 };

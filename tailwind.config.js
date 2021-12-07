@@ -3,6 +3,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      spacing: {
+        '72': '18rem',
+        '84': '21rem',
+        '96': '24rem',
+        '104': '30rem',
+        '112': '34rem'
+      },
       colors: {
         emerald: {
           900: '#183F24',
