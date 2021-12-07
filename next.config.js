@@ -47,6 +47,9 @@ module.exports = {
       },
     ]
   },
+  env: {
+    GOOGLE_API_KEY: process.env.GOOGLE_API_KEY
+  },
   images: {
     domains: ['raw.githubusercontent.com'],
   },

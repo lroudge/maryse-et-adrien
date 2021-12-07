@@ -15,20 +15,20 @@ const About: React.FC = () => {
 
   return (
     <Main id="about">
-    <div className="flex flex-row">
-      <div className="flex flex-col justify-evenly items-center w-1/2">
+    <div className="flex flex-col md:flex-row flex-wrap justify-start md:justify-center items-center min-h-screen w-full">
+      <div className="flex flex-col justify-evenly items-center w-full md:w-1/2 h-48 mb-5">
         <h1 className="text-3xl md:text-6xl font-bold font-title filter drop-shadow-md">Maryse et Adrien se marient !</h1>
         <Countdown
             date={'2022-05-07T14:00:00Z'}
             renderer={countdownRenderer}
         />
       </div>
-      <div className="w-1/2">
+      <div className="h-48 md:h-64 w-64 md:w-96 relative shadow-lg rounded-md">
         <Image
             alt="Maryse et Adrien souriants"
             src="https://raw.githubusercontent.com/lroudge/maryse-et-adrien/main/.github/images/Onglet-Accueil.JPG"
-            width="500px"
-            height="340px"
+            layout="fill"
+            className="rounded-md"
         />
       </div>
       </div>
