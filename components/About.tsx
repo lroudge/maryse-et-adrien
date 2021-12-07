@@ -5,7 +5,7 @@ import Countdown from 'react-countdown';
 const Completion = () => <span className="mt-3 text-l md:text-2xl">Vive les mariés!</span>;
 
 const About: React.FC = () => {
-    const countdownRenderer = ({ days, hours, minutes, seconds, completed }: {days: number, hours: number, minutes: numbers, seconds: numbers, completed: boolean}) => {
+    const countdownRenderer = ({ days, hours, minutes, seconds, completed }: {days: number, hours: number, minutes: number, seconds: numbers, completed: boolean}) => {
       if (completed) {
         return <Completion />;
       } else {
