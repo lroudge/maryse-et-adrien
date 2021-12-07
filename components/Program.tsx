@@ -4,7 +4,6 @@ import {BsBank2} from 'react-icons/bs';
 import {GiLinkedRings, GiGlassCelebration, GiPartyPopper} from 'react-icons/gi';
 import { FaGoogle, FaApple } from "react-icons/fa";
 import { SiGooglecalendar } from "react-icons/si";
-import ICalendarLink from "react-icalendar-link";
 import { stringify } from "querystring";
 
 export type GCalendarEventQuery = {
@@ -13,14 +12,6 @@ export type GCalendarEventQuery = {
 	details: string | null;
 	location: string | null;
 	dates: string;
-};
-
-export type ICalEvent = {
-	title: string;
-	description: string;
-	startTime: string;
-	endTime: string;
-	location: string;
 };
 
 const makeGoogleCalendarUrl = (event: GCalendarEventQuery) =>
@@ -36,13 +27,6 @@ const Program: React.FC = () => {
   		dates: "20220507T140000/20220508T050000"
   	};
 
-  	const iCalEvent: ICalEvent = {
-  		title: "Mariage de Maryse et Adrien",
-  		description: "Cérémonie Civile, Religieuse, puis Vin d'honneur, Dîner et Soirée.",
-  		startTime: "2022-05-07T14:00:00",
-  		endTime: "2022-05-08T05:00:00",
-  		location: "Noyal-sur-Vilaine, 35530"
-  	};
   return (
     <Main id="program">
       <h1 className="text-3xl md:text-6xl font-bold font-title filter drop-shadow-md">Le Programme</h1>
