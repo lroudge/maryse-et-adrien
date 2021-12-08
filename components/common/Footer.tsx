@@ -3,11 +3,11 @@ const Footer: React.FC = () => (
 		Pour toute question, vous pouvez en un clic nous contacter ici :
 		&nbsp;
 	    <a
-			href="mailto:question@maryse-et-adrien.fr"
+			href="mailto:mariage@maryse-et-adrien.fr"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
-			question@maryse-et-adrien.fr
+			mariage@maryse-et-adrien.fr
 		</a>
 	</footer>);
 

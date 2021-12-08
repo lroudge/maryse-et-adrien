@@ -39,7 +39,7 @@ const About: React.FC = () => {
     <Main id="about">
     <div className="flex flex-col md:flex-row flex-wrap justify-start md:justify-center items-center min-h-screen w-full">
       <div className="flex flex-col md:justify-evenly items-center w-full md:w-1/2 h-72 md:h-96">
-        <h1 className="text-3xl md:text-6xl font-bold font-title filter drop-shadow-md">Maryse et Adrien se marient !</h1>
+        <h1 className="text-3xl md:text-6xl font-bold font-title filter drop-shadow-md text-emerald-700">Maryse et Adrien se marient !</h1>
         <Countdown
             date={'2022-05-07T14:00:00Z'}
             renderer={countdownRenderer}
@@ -50,7 +50,7 @@ const About: React.FC = () => {
                        aria-describedby="new-window"
                        href={makeGoogleCalendarUrl(
                            googleEvent
-                       )} className="flex flex-row items-center justify-center md:justify-evenly shadow-lg rounded-md md:text-2xl bg-emerald-500 hover:bg-emerald-400 transition-colors text-emerald-800 h-16 md:h-24 w-80 md:w-96 p-2">
+                       )} className="flex flex-row items-center justify-center md:justify-evenly shadow-lg rounded-md md:text-2xl bg-emerald-500 hover:bg-emerald-600 transition-colors text-emerald-800 h-16 md:h-24 w-80 md:w-96 p-2">
 
                   Ajoutez notre évènement à votre calendrier
                   </a>
