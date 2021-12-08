@@ -45,16 +45,16 @@ const About: React.FC = () => {
             renderer={countdownRenderer}
         />
         <span className="flex flex-row items-center justify-center mt-5">
-                  <a rel="noopener noreferrer"
-                       target="_blank"
-                       aria-describedby="new-window"
-                       href={makeGoogleCalendarUrl(
-                           googleEvent
-                       )} className="flex flex-row items-center justify-center md:justify-evenly shadow-lg rounded-md md:text-2xl bg-emerald-500 hover:bg-emerald-600 transition-colors text-emerald-800 h-16 md:h-24 w-80 md:w-96 p-2">
+          <a rel="noopener noreferrer"
+               target="_blank"
+               aria-describedby="new-window"
+               href={makeGoogleCalendarUrl(
+                   googleEvent
+               )} className="flex flex-row items-center justify-center md:justify-evenly shadow-lg rounded-md md:text-2xl bg-emerald-500 hover:bg-emerald-600 transition-colors text-emerald-800 h-16 md:h-24 w-72 md:w-96 p-2">
 
-                  Ajoutez notre évènement à votre calendrier
-                  </a>
-                  </span>
+          Ajoutez notre évènement à votre calendrier
+          </a>
+        </span>
       </div>
       <div className="h-48 md:h-96 w-64 md:w-112 relative shadow-lg rounded-md">
         <Image
