@@ -5,10 +5,10 @@ const Directions: React.FC = () => {
   return (
     <Main id="directions">
       <h1 className="text-3xl md:text-6xl font-bold font-title filter drop-shadow-md text-emerald-700">Comment venir ...</h1>
-      <div className="flex flex-col md:flex-row items-center md:justify-between px-5">
+      <div className="flex flex-col md:flex-row items-center md:justify-between">
           <div className="flex flex-col md:justify-between w-full md:w-3/4 md:h-112">
               <div className="flex flex-col justify-evenly md:justify-between items-center text-left h-112 md:h-64">
-                <h2 className="text-xl md:text-2xl font-bold text-emerald-700 w-full">… à Noyal-sur-Vilaine depuis Paris ?</h2>
+                <h2 className="text-xl md:text-2xl font-bold text-emerald-700 w-full text-center md-text-left">… à Noyal-sur-Vilaine depuis Paris ?</h2>
                 <div className="flex flex-col md:flex-row justify-between items-center w-full h-96">
                     <iframe title="Noyal-sur-Vilaine on Maps"
                         className="h-48 w-64 md:h-60 md:w-96"
@@ -35,7 +35,7 @@ const Directions: React.FC = () => {
                 </div>
               </div>
               <div className="flex flex-col justify-evenly md:justify-between items-center text-left h-112 md:h-64">
-                <h2 className="text-xl md:text-2xl font-bold text-emerald-700 w-full">… à Mont-Dol ?</h2>
+                <h2 className="text-xl md:text-2xl font-bold text-emerald-700 w-full text-center md-text-left">… à Mont-Dol ?</h2>
                 <div className="flex flex-col md:flex-row justify-between items-center w-full h-96">
                     <iframe title="Mont-Dol on Maps"
                       className="h-48 w-64 md:h-60 md:w-96"
