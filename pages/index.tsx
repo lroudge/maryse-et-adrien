@@ -4,7 +4,7 @@ import Head from "next/head";
 import React from "react";
 import Footer from "../components/common/Footer";
 import Header from "../components/common/Header";
-import { About, Accommodation, Covid, Photos, Program, Registry, Rsvp, Transportation } from "../components";
+import { About, Accommodation, Covid, Photos, Program, Registry, Rsvp, Directions } from "../components";
 
 const Home: NextPage = () => {
 	return (
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
                 <main className="h-full w-full">
                     <About />
                     <Program />
-                    <Transportation />
+                    <Directions />
                     <Accommodation />
                     <Registry />
                     <Rsvp />
