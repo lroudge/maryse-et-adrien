@@ -62,7 +62,7 @@ const Directions: React.FC = () => {
               </div>
           </div>
           <div className="flex flex-col justify-evenly rounded-md  filter shadow-lg p-5 h-80 md:h-104 w-72 md:w-80 bg-beige-200">
-            <h2 className="text-l md:text-2xl font-bold text-beige-700">3 bonnes raisons de covoiturer :</h2>
+            <h2 className="text-l md:text-2xl font-bold text-beige-700">3 bonnes raisons de covoiturer</h2>
             <ul className="text-md md:text-xl text-left list-inside list-disc text-beige-600">
                 <li>Réduisez vos émissions de CO2</li>
                 <li>Réduisez vos frais de déplacement</li>

@@ -1,12 +1,20 @@
 import 'tailwindcss/tailwind.css'
 import type { NextPage } from "next";
 import Head from "next/head";
-import React from "react";
+import React, {useEffect} from "react";
 import Footer from "../components/common/Footer";
 import Header from "../components/common/Header";
 import { About, Accommodation, Covid, Photos, Program, Registry, Rsvp, Directions } from "../components";
 
 const Home: NextPage = () => {
+    useEffect(() => {
+            document.body.addEventListener('foo', () => {} );
+
+            return function cleanup() {
+                window.removeEventListener('foo', () => {} );
+            }
+        },[]);
+
 	return (
 		<div className="flex flex-col items-center justify-center min-h-screen">
 			<Head>

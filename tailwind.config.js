@@ -20,7 +20,7 @@ module.exports = {
           400: '#E1F0D0',
           300: '#F0F5D8',
           200: '#FEFAE0',
-          100: '#FEFBE9'
+          100: '#FFFEF8'
         },
         beige: {
           800: '#3E2913',
