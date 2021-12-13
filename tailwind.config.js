@@ -8,7 +8,9 @@ module.exports = {
         '84': '21rem',
         '96': '24rem',
         '104': '30rem',
-        '112': '34rem'
+        '112': '34rem',
+        '200': '52rem',
+        '240': '60rem'
       },
       colors: {
         emerald: {

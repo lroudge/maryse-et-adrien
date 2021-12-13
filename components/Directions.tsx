@@ -20,16 +20,25 @@ const Directions: React.FC = () => {
                     <ul className="flex flex-col items-left justify-evenly text-left w-full md:w-2/3 h-48">
                         <li className="flex flex-row items-center justify-start w-full">
                             <FaTrain title="train" className="text-2xl md:text-3xl text-emerald-700 mx-5"/>
-                            <span className="text-md md:text-xl w-full">
-                                <p>Paris - Rennes : 1h30-2h (TGV)</p>
-                                <p>Rennes - Noyal-sur-Vilaine : 10 min (TER - trains peu réguliers)</p>
-                            </span>
+                            <div className="flex flex-col items-left">
+                                <span className="flex flex-row items-left text-left text-sm md:text-xl">
+                                    <h2 className="contents font-bold text-emerald-700">Paris - Rennes : </h2>&nbsp;
+                                    <p className="contents">1h30-2h (TGV)</p>
+                                </span>
+                                <span className="flex flex-row items-left text-left text-sm md:text-xl">
+                                    <h2 className="contents font-bold text-emerald-700">Rennes - Noyal-sur-Vilaine : </h2>&nbsp;
+                                    <p className="contents">10 min (TER - trains peu réguliers)</p>
+                                </span>
+                            </div>
                         </li>
                         <li className="flex flex-row items-center justify-start w-full">
                             <FaCar title="car" className="text-2xl md:text-3xl text-emerald-700 mx-5"/>
-                            <span className="text-md md:text-xl w-full">
-                                <p>Paris - Noyal-sur-Vilaine : 3h30-4h30</p>
-                            </span>
+                            <div className="flex flex-col items-left">
+                                <span className="flex flex-row items-left text-left text-sm md:text-xl">
+                                    <h2 className="contents font-bold text-emerald-700">Paris - Noyal-sur-Vilaine : </h2>&nbsp;
+                                    <p className="contents">3h30-4h30</p>
+                                </span>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -46,16 +55,29 @@ const Directions: React.FC = () => {
                     <ul className="flex flex-col items-left justify-evenly text-left w-full md:w-2/3 h-48">
                         <li className="flex flex-row items-center justify-start w-full">
                             <FaTrain title="train" className="text-2xl md:text-3xl text-emerald-700 mx-5"/>
-                            <span className="text-md md:text-xl w-full">
-                                <p>Paris - Dol-de-Bretagne : 2h-3h (TGV) et 20 min de vélo pour faire Dol-de-Bretagne - Mont-Dol</p>
-                            </span>
+                            <div className="flex flex-col items-left">
+                                <span className="flex flex-row items-left text-left text-sm md:text-xl">
+                                    <h2 className="contents font-bold text-emerald-700">Paris - Dol-de-Bretagne : </h2>&nbsp;
+                                    <p className="contents">2h-3h (TGV)</p>
+                                </span>
+                                <span className="flex flex-row items-left text-left text-sm md:text-xl">
+                                    <h2 className="contents font-bold text-emerald-700">Dol-de-Bretagne - Mont-Dol : </h2>&nbsp;
+                                    <p className="contents">20 min de vélo</p>
+                                </span>
+                            </div>
                         </li>
                         <li className="flex flex-row items-center justify-start w-full">
                             <FaCar title="car" className="text-2xl md:text-3xl text-emerald-700 mx-5"/>
-                            <span className="text-md md:text-xl w-full">
-                                <p>Noyal-sur-Vilaine - Mont-Dol : 1h</p>
-                                <p>Mont-Dol - Paris : 4h-5h</p>
-                            </span>
+                            <div className="flex flex-col items-left">
+                                <span className="flex flex-row items-left text-left text-sm md:text-xl">
+                                    <h2 className="contents font-bold text-emerald-700">Noyal-sur-Vilaine - Mont-Dol : </h2>&nbsp;
+                                    <p className="contents">1h</p>
+                                </span>
+                                <span className="flex flex-row items-left text-left text-sm md:text-xl">
+                                    <h2 className="contents font-bold text-emerald-700">Mont-Dol - Paris : </h2>&nbsp;
+                                    <p className="contents">4h-5h</p>
+                                </span>
+                            </div>
                         </li>
                     </ul>
                 </div>
