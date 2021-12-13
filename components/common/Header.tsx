@@ -28,10 +28,10 @@ const Header: React.FC = () => {
 			    <Link href="#accommodation">Se Loger</Link>
 			</div>
             <div className="nav_option" onClick={() => {setDisplayMenu(false)}}>
-			    <Link href="#registry">Liste de Mariage</Link>
+			    <Link href="#rsvp">RSVP</Link>
 			</div>
             <div className="nav_option" onClick={() => {setDisplayMenu(false)}}>
-			    <Link href="#rsvp">RSVP</Link>
+			    <Link href="#registry">Liste de Mariage</Link>
 			</div>
             <div className="nav_option" onClick={() => {setDisplayMenu(false)}}>
 			    <Link href="#photos">Photos</Link>

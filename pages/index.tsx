@@ -29,8 +29,8 @@ const Home: NextPage = () => {
                     <Program />
                     <Directions />
                     <Accommodation />
-                    <Registry />
                     <Rsvp />
+                    <Registry />
                     <Photos />
                     <Covid />
                 </main>
