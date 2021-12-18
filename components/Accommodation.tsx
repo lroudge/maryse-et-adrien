@@ -25,7 +25,6 @@ const Accommodation: React.FC = () => {
               <iframe
               width="895px"
               height="340px"
-              scroll="no"
               className="hidden md:block overflow-hidden"
               src='https://docs.google.com/spreadsheets/d/e/2PACX-1vS9h6Dq3DfR0fSxzZpkRue_z9oFTB9q4ldKR8l3KZnos_a2hDS4amXqbjvgZZA65_q76e1W5reTHpdB/pubhtml?gid=1575551701&amp;single=true&amp;widget=false&amp;headers=false&amp;range=A1:H17&amp;chrome=false'></iframe>
               <span className="text-sm md:text-xl text-emerald-700">
