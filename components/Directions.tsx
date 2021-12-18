@@ -90,7 +90,14 @@ const Directions: React.FC = () => {
                 <li>Réduisez vos frais de déplacement</li>
                 <li>Faites connaissance avec les autres invités</li>
             </ul>
-            <a href="" className="flex flex-row items-center justify-center md:justify-evenly shadow-lg rounded-md md:text-2xl bg-beige-500 hover:bg-beige-600 transition-colors text-beige-800  p-2">Je covoiture !</a>
+            <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://docs.google.com/spreadsheets/d/1QbfUFX9kly4oxFm0_FQmvVp2HIf07NLT_MH43Xq5RCI/edit?usp=sharing"
+                className="flex flex-row items-center justify-center md:justify-evenly shadow-lg rounded-md md:text-2xl bg-beige-500 hover:bg-beige-600 transition-colors text-beige-800  p-2"
+                >
+                Je covoiture !
+            </a>
           </div>
       </div>
     </Main>
