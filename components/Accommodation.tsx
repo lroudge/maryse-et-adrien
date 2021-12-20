@@ -7,7 +7,7 @@ const Accommodation: React.FC = () => {
   return (
     <Main id="accommodation">
       <h1 className="text-3xl md:text-6xl font-bold font-title filter drop-shadow-md text-emerald-700">Se Loger</h1>
-      <div className="flex flex-col items-center justify-evenly w-screen md:h-112 md:pt-10">
+      <div className="flex flex-col items-center justify-evenly w-full md:h-112 md:pt-10">
           <div className="flex flex-col justify-evenly items-center h-84 p-x-5 md:h-full w-full">
               <span className="text-sm md:text-xl text-emerald-700">
                 Nous avons identifié pour vous les hébergements potentiels autour de Mont-Dol.
