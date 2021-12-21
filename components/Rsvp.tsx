@@ -13,7 +13,7 @@ const Rsvp: React.FC = () => {
                   className="rounded-md"
               />
           </div>
-          <div className="flex flex-col items-center justify-between md:w-2/3 h-96 md:h-full p-5 md:p-10">
+          <div className="flex flex-col items-center justify-between md:w-1/2 h-96 md:h-full p-5 md:p-10">
               <h1 className="text-3xl md:text-6xl font-bold font-title filter drop-shadow-md text-emerald-700">RSVP</h1>
               <span className="mt-3 text-l md:text-2xl text-emerald-700">
                   Nous vous invitons à nous indiquer votre présence via le questionnaire ci-dessous et à renseigner quelques informations complémentaires à des fins d’organisation.
