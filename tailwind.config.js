@@ -3,6 +3,16 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      spacing: {
+        '72': '18rem',
+        '84': '21rem',
+        '96': '24rem',
+        '104': '30rem',
+        '112': '34rem',
+        '200': '52rem',
+        '220': '56rem',
+        '240': '60rem'
+      },
       colors: {
         emerald: {
           900: '#183F24',
@@ -13,7 +23,7 @@ module.exports = {
           400: '#E1F0D0',
           300: '#F0F5D8',
           200: '#FEFAE0',
-          100: '#FEFBE9'
+          100: '#FFFEF8'
         },
         beige: {
           800: '#3E2913',
@@ -26,7 +36,7 @@ module.exports = {
         }
       },
       dropShadow: {
-        'md': '1px 1px .5px #245E36'
+        'md': '1px 1px .5px #183F24'
       },
       fontFamily: {
         'title': ['PlayfairDisplay'],

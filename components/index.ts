@@ -5,6 +5,6 @@ import Photos from './Photos';
 import Program from './Program';
 import Registry from './Registry';
 import Rsvp from './Rsvp';
-import Transportation from './Transportation';
+import Directions from './Directions';
 
-export { About, Accommodation, Covid, Photos, Program, Registry, Rsvp, Transportation };
+export { About, Accommodation, Covid, Photos, Program, Registry, Rsvp, Directions };
