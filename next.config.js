@@ -51,7 +51,7 @@ module.exports = {
     GOOGLE_API_KEY: process.env.GOOGLE_API_KEY
   },
   images: {
-    domains: ['raw.githubusercontent.com'],
+    domains: ['raw.githubusercontent.com', 'media0.giphy.com'],
   },
   reactStrictMode: true,
 }
