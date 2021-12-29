@@ -16,7 +16,7 @@ const Registry: React.FC = () => {
                     className="flex flex-row items-center justify-center md:justify-evenly shadow-lg rounded-md md:text-2xl bg-emerald-500 hover:bg-emerald-600 transition-colors text-emerald-800 h-10 md:h-16 w-48 md:w-52 p-2"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="">
+                    href="https://www.millemercismariage.com/maryseetadrien/liste.html">
                     Liste de Mariage
                   </a>
               </div>
