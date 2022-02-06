@@ -81,6 +81,14 @@ const Header: React.FC = () => {
         >
           <Link href="#covid">Actus Covid</Link>
         </div>
+        <div
+          className="nav_option"
+          onClick={() => {
+            setDisplayMenu(false);
+          }}
+        >
+          <Link href="#thanks">Remerciements</Link>
+        </div>
       </header>
       <div
         className={`${

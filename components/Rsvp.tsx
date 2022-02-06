@@ -18,9 +18,6 @@ const Rsvp: React.FC = () => {
           <span className="mt-3 text-l md:text-2xl text-emerald-700">
             Nous vous invitons à nous indiquer votre présence via le questionnaire ci-dessous et à renseigner quelques
             informations complémentaires à des fins d’organisation.
-            <br />
-            <br />
-            C’est promis, nous respectons le RGPD.
           </span>
           <a
             className="flex flex-row items-center justify-center md:justify-evenly shadow-lg rounded-md md:text-2xl bg-emerald-500 hover:bg-emerald-600 transition-colors text-emerald-800 h-10 md:h-16 w-48 md:w-52 p-2"

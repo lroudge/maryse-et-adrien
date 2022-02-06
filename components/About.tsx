@@ -75,6 +75,7 @@ const About: React.FC = () => {
             src="https://raw.githubusercontent.com/lroudge/maryse-et-adrien/main/.github/images/Onglet-Accueil.JPG"
             layout="fill"
             className="rounded-md"
+            priority
           />
         </div>
       </div>
