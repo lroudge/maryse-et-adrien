@@ -5,10 +5,10 @@ const Photos: React.FC = () => {
   return (
     <Main id="photos">
       <div className="flex flex-col md:flex-row items-center justify-between md:justify-evenly w-screen h-112">
-        <div className="hidden md:flex h-96 md:h-112 w-72 md:w-96 rounded-md shadow-lg relative">
+        <div className="hidden md:flex h-96 md:h-96 w-72 md:w-112 rounded-md shadow-lg relative">
           <Image
-            alt="Table dréssée avec lavandes et ronds de serviettes Maryse et Adrien"
-            src="https://raw.githubusercontent.com/lroudge/maryse-et-adrien/main/.github/images/Onglet-RSVP.JPG"
+            alt="Maryse et Adrien devant des hortensias"
+            src="https://raw.githubusercontent.com/lroudge/maryse-et-adrien/main/.github/images/Onglet-Photos.jpeg"
             layout="fill"
             className="rounded-md"
           />
