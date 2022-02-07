@@ -7,6 +7,7 @@ const Photos: React.FC = () => {
       <div className="flex flex-col md:flex-row items-center justify-between md:justify-evenly w-screen h-112">
         <div className="hidden md:flex h-96 md:h-96 w-72 md:w-112 rounded-md shadow-lg relative">
           <Image
+            objectFit={'cover'}
             alt="Maryse et Adrien devant des hortensias"
             src="https://raw.githubusercontent.com/lroudge/maryse-et-adrien/main/.github/images/Onglet-Photos.jpeg"
             layout="fill"

@@ -27,6 +27,7 @@ const Program: React.FC = () => {
         </div>
         <div className="h-48 md:h-56 w-72 md:w-80 relative shadow-lg rounded-md">
           <Image
+            objectFit={'cover'}
             alt="Eglise"
             src="https://raw.githubusercontent.com/lroudge/maryse-et-adrien/main/.github/images/Onglet-événement-église.jpg"
             layout="fill"
@@ -37,6 +38,7 @@ const Program: React.FC = () => {
       <div className="flex flex-col-reverse flex-wrap-reverse md:flex-row items-center justify-evenly md:justify-center w-full h-104 md:h-1/2 mt-5">
         <div className="h-48 md:h-56 w-72 md:w-80 relative shadow-lg rounded-md">
           <Image
+            objectFit={'cover'}
             alt="Manoir de la Bégaudière"
             src="https://raw.githubusercontent.com/lroudge/maryse-et-adrien/main/.github/images/onglet-événement-manoir-de-la-begaudiere.jpg"
             layout="fill"

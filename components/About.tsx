@@ -76,6 +76,7 @@ const About: React.FC = () => {
             layout="fill"
             className="rounded-md"
             priority
+            objectFit={'cover'}
           />
         </div>
       </div>

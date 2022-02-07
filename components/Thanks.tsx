@@ -7,12 +7,14 @@ const Thanks: React.FC = () => {
       <div className="flex flex-col-reverse md:flex-row items-center justify-evenly md:justify-evenly p-5 md:p-0 w-screen h-112 md:h-112">
         <div className="hidden md:flex h-0 md:h-96 md:w-112 rounded-md shadow-lg relative">
           <Image
+            objectFit={'cover'}
             alt="Maryse et Adrien souriants"
             src="https://raw.githubusercontent.com/lroudge/maryse-et-adrien/main/.github/images/Onglet-merci2.JPG"
             layout="fill"
             className="rounded-md"
           />
           <Image
+            objectFit={'cover'}
             alt="Maryse et Adrien souriants"
             src="https://raw.githubusercontent.com/lroudge/maryse-et-adrien/main/.github/images/Onglet-merci.JPG"
             layout="fill"

@@ -7,6 +7,7 @@ const Rsvp: React.FC = () => {
       <div className="flex flex-col-reverse md:flex-row items-center justify-between md:justify-evenly w-screen h-240 md:h-112">
         <div className="h-96 md:h-112 w-72 md:w-96 rounded-md shadow-lg relative">
           <Image
+            objectFit={'cover'}
             alt="Table dréssée avec lavandes et ronds de serviettes Maryse et Adrien"
             src="https://raw.githubusercontent.com/lroudge/maryse-et-adrien/main/.github/images/Onglet-RSVP.JPG"
             layout="fill"

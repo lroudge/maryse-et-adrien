@@ -33,6 +33,7 @@ const Accommodation: React.FC = () => {
         </div>
         <div className="md:hidden h-48 w-72 rounded-md shadow-lg relative">
           <Image
+            objectFit={'cover'}
             alt="Paysage Breton"
             src="https://raw.githubusercontent.com/lroudge/maryse-et-adrien/main/.github/images/onglet-se-loger.jpg"
             layout="fill"
