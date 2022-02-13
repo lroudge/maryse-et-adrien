@@ -8,7 +8,7 @@ const Thanks: React.FC = () => {
         <div className="hidden md:flex h-0 md:h-96 md:w-112 rounded-md shadow-lg relative">
           <Image
             objectFit={'cover'}
-            alt="Maryse et Adrien souriants"
+            alt="Maryse et Adrien souriants avec la Maman d'Adrien"
             src="https://raw.githubusercontent.com/lroudge/maryse-et-adrien/main/.github/images/Onglet-merci2.JPG"
             layout="fill"
             className="rounded-md"

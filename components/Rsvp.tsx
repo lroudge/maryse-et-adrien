@@ -21,6 +21,7 @@ const Rsvp: React.FC = () => {
             informations complémentaires à des fins d’organisation.
           </span>
           <a
+            aria-describedby="new-window"
             className="flex flex-row items-center justify-center md:justify-evenly shadow-lg rounded-md md:text-2xl bg-emerald-500 hover:bg-emerald-600 transition-colors text-emerald-800 h-10 md:h-16 w-48 md:w-52 p-2"
             target="_blank"
             rel="noopener noreferrer"

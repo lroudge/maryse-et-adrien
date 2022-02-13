@@ -15,7 +15,7 @@ const Directions: React.FC = () => {
             </h2>
             <div className="flex flex-col md:flex-row justify-between items-center w-full h-96">
               <iframe
-                title="Noyal-sur-Vilaine on Maps"
+                title="Noyal-sur-Vilaine sur Google Maps"
                 className="h-48 w-64 md:h-60 md:w-96"
                 src={`https://www.google.com/maps/embed/v1/place?key=${process.env.GOOGLE_API_KEY}&q=${encodeURI(
                   'Noyal-sur-Vilaine',
@@ -23,7 +23,7 @@ const Directions: React.FC = () => {
               ></iframe>
               <ul className="flex flex-col items-left justify-evenly text-left w-full md:w-2/3 h-48">
                 <li className="flex flex-row items-center justify-start w-full">
-                  <FaTrain title="train" className="text-2xl md:text-3xl text-emerald-700 mx-5" />
+                  <FaTrain title="En train" className="text-2xl md:text-3xl text-emerald-700 mx-5" />
                   <div className="flex flex-col items-left">
                     <span className="flex flex-row items-left text-left text-sm md:text-xl">
                       <h2 className="contents font-bold text-emerald-700">Paris - Rennes : </h2>&nbsp;
@@ -36,7 +36,7 @@ const Directions: React.FC = () => {
                   </div>
                 </li>
                 <li className="flex flex-row items-center justify-start w-full">
-                  <FaCar title="car" className="text-2xl md:text-3xl text-emerald-700 mx-5" />
+                  <FaCar title="En voiture" className="text-2xl md:text-3xl text-emerald-700 mx-5" />
                   <div className="flex flex-col items-left">
                     <span className="flex flex-row items-left text-left text-sm md:text-xl">
                       <h2 className="contents font-bold text-emerald-700">Paris - Noyal-sur-Vilaine : </h2>&nbsp;
@@ -53,7 +53,7 @@ const Directions: React.FC = () => {
             </h2>
             <div className="flex flex-col md:flex-row justify-between items-center w-full h-96">
               <iframe
-                title="Mont-Dol on Maps"
+                title="Mont-Dol sur Google Maps"
                 className="h-48 w-64 md:h-60 md:w-96"
                 src={`https://www.google.com/maps/embed/v1/place?key=${process.env.GOOGLE_API_KEY}&q=${encodeURI(
                   'Mont-Dol',
@@ -61,7 +61,7 @@ const Directions: React.FC = () => {
               ></iframe>
               <ul className="flex flex-col items-left justify-evenly text-left w-full md:w-2/3 h-48">
                 <li className="flex flex-row items-center justify-start w-full">
-                  <FaTrain title="train" className="text-2xl md:text-3xl text-emerald-700 mx-5" />
+                  <FaTrain title="En train" className="text-2xl md:text-3xl text-emerald-700 mx-5" />
                   <div className="flex flex-col items-left">
                     <span className="flex flex-row items-left text-left text-sm md:text-xl">
                       <h2 className="contents font-bold text-emerald-700">Paris - Dol-de-Bretagne : </h2>&nbsp;
@@ -74,7 +74,7 @@ const Directions: React.FC = () => {
                   </div>
                 </li>
                 <li className="flex flex-row items-center justify-start w-full">
-                  <FaCar title="car" className="text-2xl md:text-3xl text-emerald-700 mx-5" />
+                  <FaCar title="En voiture" className="text-2xl md:text-3xl text-emerald-700 mx-5" />
                   <div className="flex flex-col items-left">
                     <span className="flex flex-row items-left text-left text-sm md:text-xl">
                       <h2 className="contents font-bold text-emerald-700">Noyal-sur-Vilaine - Mont-Dol : </h2>&nbsp;
@@ -98,6 +98,7 @@ const Directions: React.FC = () => {
             <li>Faites connaissance avec les autres invités</li>
           </ul>
           <a
+            aria-describedby="new-window"
             rel="noopener noreferrer"
             target="_blank"
             href="https://docs.google.com/spreadsheets/d/1QbfUFX9kly4oxFm0_FQmvVp2HIf07NLT_MH43Xq5RCI/edit?usp=sharing"
