@@ -41,8 +41,8 @@ button {
   align-items: center;
   justify-content: center;
   height: 100%;
-  width: calc(100%/8);
-  cursor: pointer;
+  width: calc(100%/9);
+  cursor: url('/icons8-wedding-32.png'), pointer;
   padding: 0 5px;
 }
 
