@@ -40,7 +40,6 @@ const Thanks: React.FC = () => {
                   aria-describedby="new-window"
                   target="_blank"
                   className="unicorn"
-                  //                   className=" transition-all duration-500 bg-pos-100 cursor-fancy bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-emerald-700 to-emerald-700 bg-moved hover:bg-pos-0-100"
                   rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/lauraderohan/"
                 >

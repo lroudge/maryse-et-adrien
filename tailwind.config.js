@@ -3,16 +3,6 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      transitionProperty: {
-        bgPosition: 'background-position',
-      },
-      backgroundSize: {
-        moved: '200% 100%',
-      },
-      backgroundPosition: {
-        'pos-100': '100%',
-        'pos-0-100': '0 100%',
-      },
       cursor: {
         fancy: 'url(/cursor.cur), pointer',
       },
