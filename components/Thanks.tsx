@@ -35,7 +35,18 @@ const Thanks: React.FC = () => {
               <li>Le père Cédric</li>
               <li>Nos témoins (Jeanne, Carl, Alexandra & Mikhael)</li>
               <li>Nos conseillers bon goût (Paul & Joséphine)</li>
-              <li>Notre développeuse web (Laura)</li>
+              <li>
+                <a
+                  aria-describedby="new-window"
+                  target="_blank"
+                  className="unicorn"
+                  //                   className=" transition-all duration-500 bg-pos-100 cursor-fancy bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-emerald-700 to-emerald-700 bg-moved hover:bg-pos-0-100"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/lauraderohan/"
+                >
+                  Notre développeuse web (Laura)
+                </a>
+              </li>
             </ul>
           </span>
         </div>
