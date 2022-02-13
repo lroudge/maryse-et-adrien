@@ -16,6 +16,7 @@ const Registry: React.FC = () => {
             Cela étant, si vous souhaitez nous faire un cadeau, nous vous proposons une liste d’idées ci-dessous :
           </span>
           <a
+            aria-describedby="new-window"
             className="flex flex-row items-center justify-center md:justify-evenly shadow-lg rounded-md md:text-2xl bg-emerald-500 hover:bg-emerald-600 transition-colors text-emerald-800 h-10 md:h-16 w-48 md:w-52 p-2"
             target="_blank"
             rel="noopener noreferrer"
@@ -26,7 +27,7 @@ const Registry: React.FC = () => {
         </div>
         <div className="hidden md:flex h-104 w-112 rounded-md shadow-lg relative">
           <Image
-            alt="Table dréssée avec lavandes et ronds de serviettes Maryse et Adrien"
+            alt="Deux sacs à dos posés sur un rocher"
             src="https://raw.githubusercontent.com/lroudge/maryse-et-adrien/main/.github/images/Onglet-liste-mariage.jpeg"
             layout="fill"
             className="rounded-md"

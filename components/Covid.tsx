@@ -12,7 +12,7 @@ const Covid: React.FC = () => {
           <p className="mt-3 text-l md:text-2xl text-emerald-700">En attendant la prochaine allocution...</p>
           <div className="w-64 h-48 md:w-80 md:h-64 relative">
             <Image
-              alt="Macron"
+              alt="Gif de Macron disant 'je ne suis pas un tartarin de tarascon'"
               className="absolute"
               layout="fill"
               src="https://media0.giphy.com/media/d48u0covFE4VUdsQ/giphy.gif?cid=ecf05e47c31emzh0ynm98cz06dw877dbpp67022uj1xvk34i&rid=giphy.gif&ct=g"

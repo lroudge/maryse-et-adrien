@@ -13,6 +13,7 @@ const Accommodation: React.FC = () => {
             La liste n’est bien sûr pas exhaustive :
           </span>
           <a
+            aria-describedby="new-window"
             rel="noopener noreferrer"
             target="_blank"
             href="https://docs.google.com/spreadsheets/d/1XgQe2J03OlUqljUCO4LlNmnAIIiVe6z4c4zm71bO5TM/edit?usp=sharing"
@@ -21,6 +22,7 @@ const Accommodation: React.FC = () => {
             Tableau des hébergements
           </a>
           <iframe
+            title="Tableau des hébergements Google Sheets"
             width="895px"
             height="340px"
             className="hidden md:block overflow-hidden"
