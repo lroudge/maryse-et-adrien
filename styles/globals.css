@@ -24,10 +24,15 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  cursor: url('/icons8-wedding-32.png'), pointer;
 }
 
 * {
   box-sizing: border-box;
+}
+
+button {
+  cursor: url('/icons8-wedding-32.png'), pointer;
 }
 
 .nav_option {
@@ -36,19 +41,19 @@ a {
   align-items: center;
   justify-content: center;
   height: 100%;
-  width: calc(100%/8);
-  cursor: pointer;
+  width: calc(100%/9);
+  cursor: url('/icons8-wedding-32.png'), pointer;
   padding: 0 5px;
 }
 
 .nav_option a {
+  cursor: url('/icons8-wedding-32.png'), pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%;
   width: 100%;
-  cursor: pointer;
   padding: 0;
 }
 
@@ -62,6 +67,22 @@ a {
 
 .nav_option:hover::after, .nav_option:focus-within::after {
   width: 100%;
+}
+
+.unicorn {
+  /* Same as before */
+  background: linear-gradient(to right, hotpink, mediumpurple 50%, #3C9D5A 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 500ms ease;
+  cursor: url('/cursor.cur'), pointer;
+}
+
+.unicorn:hover {
+  background-position: 0 100%;
 }
 
 @media (max-width: 768px) {

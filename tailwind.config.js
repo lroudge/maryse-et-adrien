@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      cursor: {
+        fancy: 'url(/cursor.cur), pointer',
+      },
       spacing: {
         72: '18rem',
         84: '21rem',
