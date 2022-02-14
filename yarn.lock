@@ -1824,6 +1824,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dom-confetti@npm:0.2.2":
+  version: 0.2.2
+  resolution: "dom-confetti@npm:0.2.2"
+  checksum: 6b14f4432fa758b038d63cfb7c8d56577d4ce99b11b7a7c74d261e5fb2fb4e2495c6b6787ba78c778cfad2627730612234424f675c524d903ad8d7485319af22
+  languageName: node
+  linkType: hard
+
 "domain-browser@npm:4.19.0":
   version: 4.19.0
   resolution: "domain-browser@npm:4.19.0"
@@ -3519,8 +3526,10 @@ __metadata:
     prettier: ^2.4.1
     querystring: ^0.2.1
     react: 17.0.2
+    react-confetti: ^6.0.1
     react-countdown: ^2.3.2
     react-dom: 17.0.2
+    react-dom-confetti: ^0.2.0
     react-icalendar-link: ^3.0.2
     react-icons: ^4.3.1
     tailwindcss: ^2.2.19
@@ -4533,6 +4542,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-confetti@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "react-confetti@npm:6.0.1"
+  dependencies:
+    tween-functions: ^1.2.0
+  peerDependencies:
+    react: ^16.3.0 || ^17.0.1
+  checksum: 4dd6bef9ad297145051cbe3c53a01851071a31f03b8606cc56f808112341cd2225dac7e0559f5e7a33ffd7dd764cd64fcc31cf37d3c57e7738fcf1e15defdf37
+  languageName: node
+  linkType: hard
+
 "react-countdown@npm:^2.3.2":
   version: 2.3.2
   resolution: "react-countdown@npm:2.3.2"
@@ -4542,6 +4562,17 @@ __metadata:
     react: ">= 15"
     react-dom: ">= 15"
   checksum: 670d7f6f355cd2c862fde2039e3fbaf39dae2925d2dea78c0406c04a9a5c35cca61bbd137de04a965ebdbbbaee5d435a06f06c0786a86d7bfc175b4fd9789e19
+  languageName: node
+  linkType: hard
+
+"react-dom-confetti@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "react-dom-confetti@npm:0.2.0"
+  dependencies:
+    dom-confetti: 0.2.2
+  peerDependencies:
+    react: "*"
+  checksum: 57ea07edad246545116dea341577dfeddbd77c8ebf2e81175319fe6b988fb4ed693a044c20b5ab5bcdf6e68fc0bf1d70338630155e67885cc59ca0b9933fb59c
   languageName: node
   linkType: hard
 
@@ -5358,6 +5389,13 @@ __metadata:
   version: 0.0.1
   resolution: "tty-browserify@npm:0.0.1"
   checksum: 93b745d43fa5a7d2b948fa23be8d313576d1d884b48acd957c07710bac1c0d8ac34c0556ad4c57c73d36e11741763ef66b3fb4fb97b06b7e4d525315a3cd45f5
+  languageName: node
+  linkType: hard
+
+"tween-functions@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "tween-functions@npm:1.2.0"
+  checksum: 880708d680eff5c347ddcb9f922ad121703a91c78ce308ed309073e73a794b633eb0b80589a839365803f150515ad34c9646809ae8a0e90f09e62686eefb1ab6
   languageName: node
   linkType: hard
 

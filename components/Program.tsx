@@ -1,9 +1,27 @@
 import Main from './common/Main';
+import { useState } from 'react';
 import Image from 'next/image';
 import { BsBank2 } from 'react-icons/bs';
 import { GiLinkedRings, GiGlassCelebration, GiPartyPopper } from 'react-icons/gi';
+import Confetti from 'react-dom-confetti';
+
+const confettiConfig = {
+  angle: 90,
+  spread: 360,
+  startVelocity: 30,
+  elementCount: 70,
+  dragFriction: 0.12,
+  duration: 3000,
+  stagger: 3,
+  width: '10px',
+  height: '10px',
+  perspective: '500px',
+  colors: ['#a864fd', '#29cdff', '#78ff44', '#ff718d', '#fdff6a'],
+};
 
 const Program: React.FC = () => {
+  const [confetti, launchConfetti] = useState<boolean>(false);
+
   return (
     <Main id="program">
       <h1 className="text-3xl md:text-6xl font-bold font-title filter drop-shadow-md text-emerald-700">Le Programme</h1>
@@ -54,7 +72,15 @@ const Program: React.FC = () => {
             </span>
           </div>
           <div className="flex flex-row justify-evenly items-center w-80 md:w-full">
-            <GiPartyPopper title="Icone de cotillons de fête" className="text-emerald-700 text-3xl" />
+            <GiPartyPopper
+              id="party"
+              title="Icone de cotillons de fête"
+              className="text-emerald-700 text-3xl"
+              onClick={() => {
+                launchConfetti(!confetti);
+              }}
+            />
+            <Confetti aria-hidden={true} active={confetti} config={confettiConfig} />
             <span className="flex flex-col text-left w-3/4">
               <h2 className="text-l md:text-2xl font-bold text-emerald-700">Dîner et soirée dansante</h2>
               <p className="text-md md:text-xl">20h, Manoir de la Bégaudière, Mont-Dol</p>

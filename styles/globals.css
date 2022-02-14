@@ -71,7 +71,7 @@ button {
 
 .unicorn {
   /* Same as before */
-  background: linear-gradient(to right, hotpink, mediumpurple 50%, #3C9D5A 50%);
+  background: linear-gradient(to right, hotpink, #f8b7c3, mediumpurple 50%, #3C9D5A 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

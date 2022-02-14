@@ -7,7 +7,7 @@ const Directions: React.FC = () => {
       <h1 className="text-3xl md:text-6xl font-bold font-title filter drop-shadow-md text-emerald-700">
         Comment venir ...
       </h1>
-      <div className="flex flex-col md:flex-row items-center md:justify-between">
+      <div className="flex flex-col md:flex-row items-center md:justify-evenly">
         <div className="flex flex-col md:justify-between w-full md:w-3/4 md:h-112">
           <div className="flex flex-col justify-evenly md:justify-between items-center text-left h-112 md:h-64">
             <h2 className="text-xl md:text-2xl font-bold text-emerald-700 w-full text-center md:text-left">
