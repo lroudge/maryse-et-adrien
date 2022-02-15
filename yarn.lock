@@ -3526,7 +3526,6 @@ __metadata:
     prettier: ^2.4.1
     querystring: ^0.2.1
     react: 17.0.2
-    react-confetti: ^6.0.1
     react-countdown: ^2.3.2
     react-dom: 17.0.2
     react-dom-confetti: ^0.2.0
@@ -4542,17 +4541,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-confetti@npm:^6.0.1":
-  version: 6.0.1
-  resolution: "react-confetti@npm:6.0.1"
-  dependencies:
-    tween-functions: ^1.2.0
-  peerDependencies:
-    react: ^16.3.0 || ^17.0.1
-  checksum: 4dd6bef9ad297145051cbe3c53a01851071a31f03b8606cc56f808112341cd2225dac7e0559f5e7a33ffd7dd764cd64fcc31cf37d3c57e7738fcf1e15defdf37
-  languageName: node
-  linkType: hard
-
 "react-countdown@npm:^2.3.2":
   version: 2.3.2
   resolution: "react-countdown@npm:2.3.2"
@@ -5389,13 +5377,6 @@ __metadata:
   version: 0.0.1
   resolution: "tty-browserify@npm:0.0.1"
   checksum: 93b745d43fa5a7d2b948fa23be8d313576d1d884b48acd957c07710bac1c0d8ac34c0556ad4c57c73d36e11741763ef66b3fb4fb97b06b7e4d525315a3cd45f5
-  languageName: node
-  linkType: hard
-
-"tween-functions@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "tween-functions@npm:1.2.0"
-  checksum: 880708d680eff5c347ddcb9f922ad121703a91c78ce308ed309073e73a794b633eb0b80589a839365803f150515ad34c9646809ae8a0e90f09e62686eefb1ab6
   languageName: node
   linkType: hard
 

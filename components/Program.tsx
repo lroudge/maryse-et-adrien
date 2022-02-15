@@ -77,7 +77,10 @@ const Program: React.FC = () => {
               title="Icone de cotillons de fête"
               className="text-emerald-700 text-3xl"
               onClick={() => {
-                launchConfetti(!confetti);
+                launchConfetti(true);
+                setTimeout(() => {
+                  launchConfetti(false);
+                }, 200);
               }}
             />
             <Confetti aria-hidden={true} active={confetti} config={confettiConfig} />
