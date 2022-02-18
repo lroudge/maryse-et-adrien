@@ -11,7 +11,7 @@ type Props = {
   userAgent?: string;
 };
 
-const Home: NextPage<Props> = ({ isIE }) => {
+const Home: NextPage<Props> = ({ isIE, userAgent }) => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen overflow-hidden">
       <Head>
@@ -27,7 +27,7 @@ const Home: NextPage<Props> = ({ isIE }) => {
         <div className="flex flex-col items-center w-full text-center bg-emerald-100 text-emerald-600">
           <Header />
           <main className="h-full w-full md:px-10">
-            <About />
+            <About userAgent={userAgent} />
             <Program />
             <Directions />
             <Accommodation />
