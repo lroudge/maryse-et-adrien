@@ -8,7 +8,7 @@ import { About, Accommodation, Covid, Photos, Program, Registry, Rsvp, Direction
 
 type Props = {
   isIE: boolean;
-  userAgent: string;
+  userAgent?: string;
 };
 
 const Home: NextPage<Props> = ({ isIE }) => {
@@ -44,8 +44,8 @@ const Home: NextPage<Props> = ({ isIE }) => {
   );
 };
 
-Home.getInitialProps = async (ctx): Promise<Props> => {
-  const userAgent = ctx.req.headers['user-agent'];
+Home.getInitialProps = async ({ req }): Promise<Props> => {
+  const userAgent = req ? req.headers['user-agent'] : navigator.userAgent;
 
   const isIE = /MSIE|Trident/.test(userAgent);
 
