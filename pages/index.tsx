@@ -47,7 +47,7 @@ const Home: NextPage<Props> = ({ isIE }) => {
 Home.getInitialProps = async ({ req }): Promise<Props> => {
   const userAgent = req ? req.headers['user-agent'] : navigator.userAgent;
 
-  const isIE = /MSIE|Trident/.test(userAgent);
+  const isIE = userAgent ? /MSIE|Trident/.test(userAgent) : false;
 
   return { userAgent, isIE };
 };
