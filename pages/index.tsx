@@ -44,7 +44,7 @@ const Home: NextPage<Props> = ({ isIE }) => {
   );
 };
 
-Home.getInitialProps = async (ctx): Props => {
+Home.getInitialProps = async (ctx): Promise<Props> => {
   const userAgent = ctx.req.headers['user-agent'];
 
   const isIE = /MSIE|Trident/.test(userAgent);
