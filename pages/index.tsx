@@ -20,7 +20,7 @@ const Home: NextPage<Props> = ({ isIE }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {isIE ? (
-        <h1 className="text-3xl md:text-6xl font-bold font-title filter drop-shadow-md text-emerald-700">
+        <h1 className="text-3xl text-center font-bold font-title">
           Votre navigateur n'est pas supporté, veuillez nous excuser pour la gêne occasionnée
         </h1>
       ) : (
