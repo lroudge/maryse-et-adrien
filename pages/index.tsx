@@ -6,7 +6,12 @@ import Footer from '../components/common/Footer';
 import Header from '../components/common/Header';
 import { About, Accommodation, Covid, Photos, Program, Registry, Rsvp, Directions, Thanks } from '../components';
 
-const Home: NextPage = ({ isIE }) => {
+type Props = {
+  isIE: boolean;
+  userAgent: string;
+};
+
+const Home: NextPage<Props> = ({ isIE }) => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen overflow-hidden">
       <Head>
@@ -39,10 +44,10 @@ const Home: NextPage = ({ isIE }) => {
   );
 };
 
-Home.getInitialProps = async (ctx) => {
+Home.getInitialProps = async (ctx): Props => {
   const userAgent = ctx.req.headers['user-agent'];
 
-  const isIE = /MSIE|Trident/.test(req.headers['user-agent']);
+  const isIE = /MSIE|Trident/.test(userAgent);
 
   return { userAgent, isIE };
 };
