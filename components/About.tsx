@@ -40,7 +40,7 @@ const About: React.FC<Props> = ({ userAgent }) => {
     dates: '20220507T140000/20220508T050000',
   };
 
-  const iosEvent: ICalendarLink = {
+  const iosEvent: ICalEvent = {
     title: 'Mariage de Maryse et Adrien',
     description: "Cérémonie Civile, Religieuse, puis Vin d'honneur, Dîner et Soirée.",
     startTime: '2022-05-07T14:00:00',
