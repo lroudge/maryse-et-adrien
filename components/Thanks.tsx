@@ -35,6 +35,7 @@ const Thanks: React.FC = () => {
               <li>Le père Cédric</li>
               <li>Nos témoins (Jeanne, Carl, Alexandra & Mikhael)</li>
               <li>Nos conseillers bon goût (Paul & Joséphine)</li>
+              <li>Notre photographe officiel (Baptiste)</li>
               <li>
                 <a
                   aria-describedby="new-window"
